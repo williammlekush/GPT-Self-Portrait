@@ -1,0 +1,77 @@
+* {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("portrait.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+main {
+  margin: 10% 30% 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  max-width: 800px;
+  min-width: 10%;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.3rem;
+}
+
+#msg {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+nav {
+  font-size: 1.25rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#thoughts,
+#nav {
+  border-radius: 0.33em;
+  border: 2px lightslategray solid;
+  padding: 0.5em;
+  transition: 250ms ease-in;
+  font-weight: 700;
+}
+
+#thoughts {
+  color: lightslategray;
+  margin-right: 1rem;
+  background: whitesmoke;
+}
+
+#nav {
+  background: lightslategray;
+  color: white;
+}
+
+#thoughts:hover {
+  color: white;
+  background: lightslategray;
+}
+
+#nav:hover {
+  background: darkslategray;
+  border-color: darkslategray;
+}

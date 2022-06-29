@@ -214,9 +214,9 @@ var app = {
 
           setTimeout(() => {
             $(app.elems.NAV + "," + app.elems.THOUGHTS).show(250);
-          }, app.msgs.ASK.length * app.speed + 700);
-        }, app.msgs.WELCOME.length * app.speed + 700);
-      }, app.msgs.HI.length * app.speed + 700);
+          }, app.msgs.ASK.length * app.speed + 1000);
+        }, app.msgs.WELCOME.length * app.speed + 1000);
+      }, app.msgs.HI.length * app.speed + 1000);
     }, 250);
   },
 
